@@ -17,3 +17,23 @@ A brief summary of what this repository does:
 1. **Clone or Download**  
    ```bash
    git clone https://github.com/YourUsername/ShallowFoundations.git
+2. Dependencies
+
+     Make sure you have the following:
+
+  - Python 3.x
+  - NumPy
+  - SciPy
+  - Pandas
+  - Matplotlib (if plotting results)
+
+3. Getting Started
+
+  Navigate to the repository folder.
+  
+  Run the scripts from a Python session or import them into your own project files.
+
+References
+  - Bowles, J. E. (1997). Foundation Analysis and Design.
+  - Das, B. M. (2016). Principles of Foundation Engineering.
+  - Terzaghi, K. (1943). Theoretical Soil Mechanics.
