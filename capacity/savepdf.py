@@ -90,6 +90,10 @@ def compile_content_page(series0, series1, series2, series3, dataframe4, titleli
     ]))
 
     # Initialize PDF document
+    # Ensure the "reports" folder exists
+    if not os.path.exists("reports"):
+        os.makedirs("reports")
+
     pdf = SimpleDocTemplate(
         "reports/content_page.pdf",
         pagesize=A4,
